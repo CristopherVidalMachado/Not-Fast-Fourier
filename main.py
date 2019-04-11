@@ -49,6 +49,6 @@ def IDFT2D(dft2d):
     return image
 
 # TEST
-# Recreate input image from 2D DFT results to compare to input image
+
 image = IDFT2D(DFT2D(Image.open("input.png")))
 image.save("output.png", "PNG")
